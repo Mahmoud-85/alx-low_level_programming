@@ -3,7 +3,8 @@
 /**
  * main - entry point
  *
- * Description: print all single digit numbers
+ * Description: print 0-9 using putchar
+ *              while using int variable
  *
  * Return: Always 0 (success)
 */
@@ -14,10 +15,11 @@ int main(void)
 
 	while (digit <= 9)
 	{
-		printf("%i", digit);
+		/*convert digit to ASCII representation*/
+		putchar(digit + '0');
 		digit++;
 	}
-	printf("\n");
+	putchar('\n');
 
 	return (0);
 }
