@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: print all aplhabet letters
+ * Description: print all alphabet letters
  *
  * Return: Always 0 (success)
 */
@@ -17,7 +17,7 @@ int main(void)
 		putchar(ch);
 		ch++;
 	}
-	putchar('\n')
+	putchar('\n');
 
 	return (0);
 }
